@@ -10,17 +10,26 @@ package com.factoryPedido.tiendaOnline.model;
  */
 public class Cliente {
     
-    private int id;
-    private String nombre;
-    private String email;
-    private String direccion;
-
-    public Cliente(int id, String nombre, String email, String direccion) {
-        this.id = id;
-        this.nombre = nombre;
-        this.email = email;
-        this.direccion = direccion;
-    }
+        private int id;
+        private String nombre;
+        private String email;
+        private String direccion;
+    
+        // Constructor por defecto, sin parámetros
+        public Cliente() {
+            id = 0;
+            nombre = "";
+            email = "";
+            direccion = "";
+        }
+    
+        // Constructor con parámetros
+        public Cliente(int id, String nombre, String email, String direccion) {
+            this.id = id;
+            this.nombre = nombre;
+            this.email = email;
+            this.direccion = direccion;
+        }
 
     public int getId() {
         return id;

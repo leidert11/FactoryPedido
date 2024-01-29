@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.factoryPedido.tiendaOnline.model;
 
 import java.util.Date;
 
-/**
- *
- * @author Usuario
- */
 public class Pedido {
     
     private int id;
@@ -22,6 +15,9 @@ public class Pedido {
         this.fecha = fecha;
         this.total = total;
         this.estado = estado;
+    }
+
+    public Pedido() {
     }
 
     public int getId() {

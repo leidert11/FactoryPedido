@@ -18,6 +18,9 @@ public class DetallePedido {
         this.cantidad = cantidad;
         this.subtotal = subtotal;
     }
+    public DetallePedido() {
+        
+    }
 
     public int getId() {
         return id;

@@ -8,6 +8,6 @@ package com.factoryPedido.tiendaOnline.controller;
  *
  * @author Usuario
  */
-public class ControladorPedido {
+public class ControllerProducto {
     
 }
